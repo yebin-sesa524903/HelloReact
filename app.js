@@ -7,3 +7,9 @@ class App extends Component {
     );
   }
 }
+
+React.render() {
+  return (
+    document.getElementById('app'),<App/>
+  );
+}
